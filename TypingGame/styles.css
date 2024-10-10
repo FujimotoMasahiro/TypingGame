@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#timer, #accuracy, #target-sentence, #comparison-text {
+    margin-bottom: 10px;
+}
+
+#character img {
+    width: 50px;
+    height: 50px;
+}
+
+#comparison-text .highlight {
+    color: red;
+    font-weight: bold;
+}
